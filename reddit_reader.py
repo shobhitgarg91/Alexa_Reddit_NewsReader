@@ -24,7 +24,7 @@ def get_headlines():
 
 @app.route("/")
 def homepage():
-    return "Hello World!"
+    return "Welcome to the homepage!"
 
 @ask.launch
 def start_skill():
